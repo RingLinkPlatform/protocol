@@ -1,0 +1,13 @@
+[package]
+name = "ringlink-protocol"
+description = "RingLink protocol"
+authors = ["boot <boot@ring.link>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ringlink-identity = { git = "https://github.com/RingLinkPlatform/identity" }
+
+bytes = "1.9"
+thiserror = "2.0.6"
+bitflags = { version = "2.6.0" }
