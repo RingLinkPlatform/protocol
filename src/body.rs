@@ -22,9 +22,9 @@ mod data;
 mod key_exchange;
 mod p2p;
 
-pub use data::{Data};
+pub use data::Data;
+pub use key_exchange::{KeyExchange, KEY_EXCHANGE_REPLY, KEY_EXCHANGE_REQUEST};
 pub use p2p::Binding;
-pub use key_exchange::KeyExchange;
 
 /// trait for encode and decode RingLink packet
 pub trait PacketMessage {
